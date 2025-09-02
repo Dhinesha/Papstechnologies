@@ -1,35 +1,36 @@
 # Simple chatbot implementation
 def chatbot():
-	print("Hello! I am Paps Technologies Bot. Type 'bye' to exit.")
+	print("Hi! 👋 I'm Paps Technologies Bot. Type 'bye' anytime to end our chat. How can I help you today?")
 	while True:
 		user_input = input("You: ").strip().lower()
 		if user_input == 'bye':
-			print("Paps Technologies Bot: Goodbye!")
+			print("Paps Technologies Bot: Goodbye! It was nice chatting with you. If you have more questions, just come back anytime!")
 			break
 		elif user_input in ['hi', 'hii', 'hello']:
-			print("Paps Technologies Bot: Hey there! 😊 I'm Paps Technologies Bot. How can I help you today? Feel free to ask me anything about our services or company.")
+			print("Paps Technologies Bot: Hey there! 😊 How can I assist you today? You can ask me about our services, company info, or anything else!")
 		elif 'how are you' in user_input:
-			print("Paps Technologies Bot: I'm great, thanks for asking! How are you doing?")
+			print("Paps Technologies Bot: I'm doing great, thanks for asking! How are you today?")
 		elif 'name' in user_input:
-			print("Paps Technologies Bot: My name is Paps Technologies Bot, but you can call me Paps! 😊")
+			print("Paps Technologies Bot: My name is Paps Technologies Bot, but you can call me Paps! 😊 What's your name?")
 		elif 'founder' in user_input:
-			print("Paps Technologies Bot: The founder of Paps Technologies is Saravanan.")
+			print("Paps Technologies Bot: Our founder is Saravanan. Would you like to know more about our team?")
 		elif 'co founder' in user_input or 'co-founder' in user_input:
-			print("Paps Technologies Bot: The co-founder of Paps Technologies is Naveen.")
+			print("Paps Technologies Bot: The co-founder of Paps Technologies is Naveen. He's part of our passionate team working for your success!")
 		elif 'paps technologies' in user_input or 'company' in user_input:
-			print("Paps Technologies Bot: Paps Technologies is a digital marketing agency in Chennai, India. We offer web design, SEO, SEM, SMM, mobile app development, and more.")
+			print("Paps Technologies Bot: Paps Technologies is a digital marketing agency based in Chennai, India. We help businesses grow online with web design, SEO, social media, and more. Want to know how we can help you?")
 		elif 'services' in user_input:
-			print("Paps Technologies Bot: Our services include Web Design & Development, SEO, SEM, Social Media Marketing, Mobile App Development, Local SEO, Content Marketing, and Brand Identity.")
+			print("Paps Technologies Bot: We offer web design, SEO, SEM, social media marketing, mobile app development, local SEO, content marketing, and brand identity. Which service interests you most?")
 		elif 'contact' in user_input or 'phone' in user_input or 'email' in user_input:
-			print("Paps Technologies Bot: You can contact Paps Technologies at +91-824-880-8145 or papstechnologies@gmail.com. We are located in Salem, Chennai, Tamil Nadu.")
+			print("Paps Technologies Bot: You can reach us at +91-824-880-8145 or papstechnologies@gmail.com. We're located in Salem, Chennai, Tamil Nadu. Would you like directions or a callback?")
 		elif 'industries' in user_input:
-			print("Paps Technologies Bot: We serve Finance, Healthcare, Restaurants, Fitness, Events, FMCG, Interior, Translation, IT, and Cosmetics industries.")
+			print("Paps Technologies Bot: We work with finance, healthcare, restaurants, fitness, events, FMCG, interior, translation, IT, cosmetics, and more. Is your business in one of these industries?")
 		elif 'location' in user_input:
-			print("Paps Technologies Bot: Paps Technologies is located in Salem, Chennai, Tamil Nadu, India.")
+			print("Paps Technologies Bot: We're located in Salem, Chennai, Tamil Nadu, India. We also work with clients across India and abroad!")
 		elif 'hours' in user_input or 'timing' in user_input:
-			print("Paps Technologies Bot: We are open Monday to Saturday, 9:30 AM to 6:30 PM.")
+			print("Paps Technologies Bot: We're open Monday to Saturday, 9:30 AM to 6:30 PM. When would you like to visit or call?")
 		else:
-			print("Paps Technologies Bot: Sorry, I'm not aware about that. Can I help you with something related to Paps Technologies?")
+			print("Paps Technologies Bot: I'm not sure about that yet, but I'm always learning! Can I help you with something about Paps Technologies, digital marketing, or business growth?")
 
 if __name__ == "__main__":
 	chatbot()
+
